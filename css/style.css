@@ -544,6 +544,16 @@ padding-top: 0;
 .img-target:hover{
     margin-top: -15px !important;
 }
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+}
 
 .input-form .unique{
     color: white !important;
