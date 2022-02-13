@@ -389,9 +389,8 @@ margin-left: 20px !important;
 }
 
 .enter-web:hover{
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     /* box-shadow: rgb(219, 219, 219) 3px 13px 27px -15px, rgba(231, 231, 231, 0.719) 0px 8px 16px -8px; */
-  
 }
 .photo-btn{
     transition: 0.5s;
@@ -466,9 +465,6 @@ margin-left: 20px !important;
 .dismiss-icon-img{
     display: none !important;
 }
-.footer-end-text h3{
-    cursor: pointer;
-}
 .footer-paragraph{
     cursor: pointer;
 }
@@ -518,33 +514,28 @@ padding-top: 0;
     font-weight: 600;
     font-style: normal;
     }
-    .form-in input::placeholder{
-        color: white !important;
-        font-size: 20px;
-        font-weight: 600;
-        font-style: normal;
-       
-        
-        }
+.form-in input::placeholder{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
 .input-form
 {
     width: 70%;
     padding-top: 90px;
     margin: auto;
 }
-.form-in
-{
+.form-in {
     width: 70%;
     padding-top: 20px;
     margin: auto;
 }
-.hover-active-wrapper .icon-see-more{
+.hover-active-wrapper .icon-see-more {
     display: none;
 }
-.card-wr:hover .icon-see-more
-{
+.card-wr:hover .icon-see-more {
     display: block !important;
-    
 }
 .img-target{
     transition: all 0.3s;
@@ -601,26 +592,24 @@ padding-top: 0;
     margin-bottom: 35px;
     font-weight: 400;
     }
-    .input-form .bb-none{
-        color: white !important;
-        outline: none;
-        background-color: transparent;
-        border-bottom: 2px solid #fff;
-        width: 100% !important;
-        margin-bottom: 35px;
-        
-        }
-       .age-control{
-           margin-bottom: 0 !important;
-       }
-
+.input-form .bb-none{
+    color: white !important;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    width: 100% !important;
+    margin-bottom: 35px;
+}
+.age-control{
+    margin-bottom: 0 !important;
+}
 .eye-input{
     position: relative;
 }
 .eye-input i {
     position: absolute;
-    right: 0;
-    top: 6px;
+    right: 1px;
+    top: calc(50% - 15px);
     color: #fff;
     cursor: pointer;
 }
@@ -797,13 +786,12 @@ footer ul li a{
     width: 100%;
 }
 
-
 .white-card p{
-font-size: 24px;
-color: #000000;
-font-weight: 400;
-font-style: normal;
-line-height: 33px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 33px;
 }
 .white-card span{
     font-size: 30px;
