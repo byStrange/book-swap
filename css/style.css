@@ -1071,7 +1071,7 @@ margin-bottom: 8px;
 }
 .genre-wrapper .other-genres{
     font-style: normal;
-    font-size: 19px;
+    font-size: 19px !important;
 }
 .genre-wrapper > div{
     display: flex;
