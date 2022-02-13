@@ -1067,6 +1067,11 @@ margin-bottom: 8px;
     font-style: normal;
     text-decoration: none;
     padding: 5px 0px;
+    user-select: none;
+}
+.genre-wrapper .other-genres{
+    font-style: normal;
+    font-size: 19px;
 }
 .genre-wrapper > div{
     display: flex;
