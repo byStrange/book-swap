@@ -390,7 +390,7 @@ margin-left: 20px !important;
 
 .enter-web:hover{
     
-    box-shadow: rgb(219, 219, 219) 3px 13px 27px -15px, rgba(231, 231, 231, 0.719) 0px 8px 16px -8px;
+    /* box-shadow: rgb(219, 219, 219) 3px 13px 27px -15px, rgba(231, 231, 231, 0.719) 0px 8px 16px -8px; */
   
 }
 .photo-btn{
@@ -410,42 +410,50 @@ margin-left: 20px !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .login{
     padding: 15px 15px;
-    background-image: url('../image/Rectangle 4.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    /* background-image: url('../image/Rectangle 4.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
     width: 500px;
     height:100%;
     margin-top: -40px;
     border-radius: 20px;
     margin-bottom: 50px;
- 
+    background: linear-gradient(
+    103.17deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.05) 76.68%
+  );
+  backdrop-filter: blur(15px);
 }
 .personal-wrapper{
     padding: 15px 25px;
-    background-image: url('../image/Rectangle 4.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    /* background-image: url('../image/Rectangle 4.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
     width: 600px;
     height:600px;
     padding-bottom: 30px;
     margin-top: -5px;
     border-radius: 20px;
     margin-bottom: 50px;
-    
- 
+    background: linear-gradient(
+    103.17deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.05) 76.68%
+  );
+  backdrop-filter: blur(15px);
 }
 .log-in{
     padding: 15px 15px;
-    background-image: url("../image/Rectangle  4.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    /* background-image: url("../image/Rectangle  4.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
     background: linear-gradient(
     103.17deg,
     rgba(255, 255, 255, 0.3) 0%,
