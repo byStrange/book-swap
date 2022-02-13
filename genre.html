@@ -110,7 +110,7 @@
             <a class="other-genres" href="login.html">boshqa janrlar</a>
           </div>
         </div>
-        <div class="  genres-first">
+        <div class="genres-first">
           <h3>Siz qanday janrdagi <br> kitoblarga qiziqasz ?</h3>
           <div class="genre-wrapper">
             <div>
@@ -159,6 +159,13 @@
   </div>
   <script src="js/anime.js"></script>
   <script src="js/script.js"></script>
+  <script>
+    document.querySelectorAll('.genre-wrapper > div a').forEach(a => {
+      a.onclick = function () {
+        this.classList.toggle('checked')
+      }
+    })
+  </script>
 </body>
 
 </html>
