@@ -287,10 +287,6 @@ padding-right: 2px !important;
     margin-top: 40px;
 }
 .book-card{
-    /* background-image: url(../image/Rectangle\ 3.png); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: center; */
     width: 820px;
     height: 600px;
     margin: 10px;
@@ -408,10 +404,6 @@ margin-left: 20px !important;
 }
 .login{
     padding: 15px 15px;
-    /* background-image: url('../image/Rectangle 4.png'); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: center; */
     width: 500px;
     height:100%;
     margin-top: -40px;
@@ -426,10 +418,6 @@ margin-left: 20px !important;
 }
 .personal-wrapper{
     padding: 15px 25px;
-    /* background-image: url('../image/Rectangle 4.png'); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: center; */
     width: 600px;
     height:600px;
     padding-bottom: 30px;
@@ -445,10 +433,6 @@ margin-left: 20px !important;
 }
 .log-in{
     padding: 15px 15px;
-    /* background-image: url("../image/Rectangle  4.png"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: center; */
     background: linear-gradient(
     103.17deg,
     rgba(255, 255, 255, 0.3) 0%,
@@ -1071,30 +1055,7 @@ margin-bottom: 8px;
     width: 100%;
     font-weight: normal;
 }
-.genre-wrapper > div{
-
-}
-
-.first-genre-wr{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-
-}
-.second-genre{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-.third-genre{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-.first-genre-wr a {
+.genre-wrapper > div a{
     margin: 0px 5px;
     margin-bottom: 10px;
     width: 25%;
@@ -1107,40 +1068,19 @@ margin-bottom: 8px;
     text-decoration: none;
     padding: 5px 0px;
 }
-.third-genre a {
-    margin: 0px 5px;
-    margin-bottom: 10px;
+.genre-wrapper > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 .genre-wrapper a.checked {
     background-color: #F27D1D !important;
     color: #fff !important;
 }
 
-.second-genre a {
-    margin: 0px 5px;
-    margin-bottom: 10px;
-    width: 25%;
-    background-color: #fff !important;
-    border-radius: 5px;
-    text-align: center;
-    color: black !important;
-    font-size: 22px;
-    font-style: normal;
-    text-decoration: none;
-    padding: 5px 0px;
-}
-.third-genre a {
-    margin: 0px 5px;
-    margin-bottom: 10px;
-    width: 33%;
-    background-color: #fff !important;
-    border-radius: 5px;
-    text-align: center;
-    color: black !important;
-    font-size: 22px;
-    font-style: normal;
-    text-decoration: none;
-    padding: 5px 0px;
+.genre-wrapper .triple a {
+    width: 33% !important;
 }
 
 
