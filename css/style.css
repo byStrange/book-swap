@@ -929,7 +929,9 @@ border-radius: 50%;
 .card-text-wr p,a{
     padding-left: 10px;
 }
-
+li.nav-item{
+    margin-left: 15px;
+}
 .personal-wrapper{
    margin-left: auto;
    margin-right: auto;
@@ -1378,6 +1380,9 @@ height: 300px;
 @media(max-width:1400px){
     .login{
         height: 550px !important;
+    }
+    .nav-item {
+        margin-left: 0 !important;
     }
     .login-bg-img{
         height: auto !important;
