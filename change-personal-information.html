@@ -34,110 +34,69 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon  h3"></span>
           </button>
-
-
-
-
-
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav pt-3">
+              <div class="move white"></div>
               <div class="move"></div>
               <li class="nav-item">
                 <a class="nav-link " href="index.html">Bosh sahifa</a>
               </li>
-
               <li class="nav-item">
-                <a class="nav-link" href="document.html">E’lonlar oynasi</a>
+                <a class="nav-link" href="advertisement.html">E’lonlar oynasi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="advertisement.html">Mening e’lonlarim</a>
+                <a class="nav-link" href="lovebook.html">Mening e’lonlarim</a>
               </li>
-
               <li class="nav-item">
                 <a class="nav-link" href="enterbook.html">Kitob joylash</a>
               </li>
-
-              <!-- div for header images -->
-
             </ul>
-
-
             <div class="d-flex align-items-center justify-content-center  header-images">
               <img src="image/Vector (19).png" alt="search">
               <a href="bookmine.html"><img src="image/Vector (20).png" alt="search"></a>
-
               <a href="change-personal-information.html"><img src="image/Vector (21).png" alt="search"></a>
             </div>
-
-
           </div>
         </div>
       </nav>
-
     </div>
   </header>
-
   <!-- .sectionfor text and login -->
-
   <div class="section">
     <div class="text-wr-login">
       <h2>Shaxsiy ma’lumotlar</h2>
-
-
       <div class="personal-wrapper">
-
-
-
         <div class="text-center img_text">
           <div class="dismiss-icon-img">
             <a href="personal-information.html"> <img class="colllicon-enter-first dismiss-iconimg"
                 src="image/coolicon.png" alt="x-image"></a>
           </div>
-
-          <img class="boys-img" src="image/unsplash_VVEwJJRRHgk (1).png" alt="persons-image">
-
-          <p><a href="#">Rasmni o‘zgartirish</a></p>
+          <img class="boys-img" id="profileImg" src="image/unsplash_VVEwJJRRHgk (1).png" alt="persons-image">
+          <p><a href="#" id="upLoad">Rasmni o‘zgartirish</a></p>
         </div>
-
         <div class="input-change-form-wrapper">
-          <input type="text" placeholder="Ism">
-          <input type="text" placeholder="Familiya">
-          <input type="text" placeholder="Foydalanuvchi">
-          <!-- <select class="form-select select-your-region region-text" aria-label="Default select example">
-        <option selected>Yashash joyi</option>
-        <option value="1">Andijon</option>
-        <option value="2">Namangan</option>
-        <option value="3">Samarqand</option>
-        <option value="4"> Tashkent</option>
-        <option value="5">Jizzax</option>
-        <option value="6">Surxandaryo</option>
-        <option value="7">Navoiy</option>
-        <option value="8">Xorazm</option>
-        <option value="9">Qashqadaryo</option>
-        <option value="10">Buxoro</option>
-        <option value="11">Sirdaryo</option>
-        <option value="12"> Fargona</option>
-
-      </select> -->
-          <input type="text" placeholder="Yashash Joyi">
-          <input type="number" placeholder="Telefon raqam">
-
+          <input type="text" placeholder="Ism" value="John">
+          <input type="text" placeholder="familiya" value="Doe">
+          <input type="text" placeholder="foydalanuvchi" value="johndoe">
+          <input type="text" placeholder="yashash joyi" value="bootstraptopia">
+          <input type="number" placeholder="telefon raqam" value="+9989999898">
         </div>
         <div class="personal-btn text-center mt-3">
-          <a href="personal-information.html" class="enter-web">O‘zgartorish</a>
+          <a href="personal-information.html" class="enter-web">O‘zgartirish</a>
         </div>
-
       </div>
-
-
-
-
-
-
     </div>
   </div>
+  <script src="js/anime.js"></script>
+  <script src="js/script.js"></script>
+  <script>
 
-
+    var uploadBtn = document.getElementById('upLoad');
+    var target = document.getElementById('profileImg')
+    uploadBtn.onclick = function () {
+      upload(target)
+    }
+  </script>
 </body>
 
 </html>
