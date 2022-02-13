@@ -546,16 +546,15 @@ padding-top: 0;
 }
 
 .input-form .unique{
-color: white !important;
-outline: none;
-background-color: transparent;
-border: none;
-border-bottom: 1px solid white;
-width: 100% !important;
-margin-bottom: 10px;
-transition: 0.5s;
-
-
+    color: white !important;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100% !important;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    font-size: 20px;
 }
 
 .input-form .unique::placeholder{
