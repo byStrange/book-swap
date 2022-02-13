@@ -303,6 +303,7 @@ padding-right: 2px !important;
     rgba(255, 255, 255, 0.05) 76.68%
   );
   backdrop-filter: blur(15px);
+  border-radius:  20px;
 }
 .genres-first{
    
