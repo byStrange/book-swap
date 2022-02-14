@@ -229,7 +229,7 @@ function setMore() {
       let more = document.createElement('a')
       more.className = 'hover';
       more.innerHTML = 'Batafsil <i class="fas fa-arrow-right"></i>';
-      more.href = 'reworkbook.html'
+      more.href = card.getAttribute('href') ? card.getAttribute('href') : 'reworkbook.html'
       card.appendChild(more)
     })
   }
