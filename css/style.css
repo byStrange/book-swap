@@ -1459,6 +1459,9 @@ li.nav-item {
         text-align: center;
         border-radius: 10px;
     }
+    [d]::after{
+        width: 155px !important; 
+    }
 }
 
 @media (max-width: 722px) {
