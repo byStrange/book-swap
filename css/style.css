@@ -461,6 +461,10 @@ margin-left: 20px !important;
     color: black !important;
     margin-left: 20px;
 }
+.navbar-toggler {
+    border: none !important;
+    color: Transparent !important;
+}
 .enter a{
     color: #FFFFFF !important;
     font-weight: 600;
