@@ -2329,7 +2329,16 @@ li.nav-item {
 .buttons a{
     background: transparent;
     transition: 200ms;
+    position: relative;
 }
 .buttons a:hover{
     background: #f27d1d;
+    border-color: transparent !important; 
+}
+.buttons a::after{
+    content: attr(popup);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40px;
+    left: 50%;
 }
