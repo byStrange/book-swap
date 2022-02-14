@@ -202,7 +202,7 @@ img{
 
 
 .card-wr:hover{
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
     transform: translateY(-12px);
 }
 .card-wr:hover .top-img-header{
@@ -355,7 +355,7 @@ padding-right: 2px !important;
     transition: all 0.5s;
 }
   .book-btn:hover{
-    box-shadow: rgb(219, 219, 219) 3px 13px 27px -15px, rgba(231, 231, 231, 0.719) 0px 8px 16px -8px;
+    /* box-shadow: rgb(219, 219, 219) 3px 13px 27px -15px, rgba(231, 231, 231, 0.719) 0px 8px 16px -8px; */
     margin-left: 15px !important;
 }
 .button-in-orange-color-centered a{
@@ -363,7 +363,7 @@ padding-right: 2px !important;
     
 }
 .button-in-orange-color-centered a:hover{
-    box-shadow: 5px 10px 20px rgba(170, 169, 169, 0.7);
+    /* box-shadow: 5px 10px 20px rgba(170, 169, 169, 0.7); */
 }
 .advertisement-window{
     transition: all 0.5s;
@@ -375,14 +375,14 @@ padding-right: 2px !important;
 margin-left: 20px !important;
 }
 .advertisement-window:hover{
-    box-shadow: rgb(219, 219, 219) 3px 13px 27px -15px, rgba(231, 231, 231, 0.719) 0px 8px 16px -8px;
+    /* box-shadow: rgb(219, 219, 219) 3px 13px 27px -15px, rgba(231, 231, 231, 0.719) 0px 8px 16px -8px; */
 }
 .enter-web{
     transition: all 0.5s;
 }
 
 .enter-web:hover{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
 .photo-btn{
     transition: 0.5s;
@@ -1071,7 +1071,7 @@ margin-bottom: 8px;
 }
 .genre-wrapper .other-genres{
     font-style: normal;
-    font-size: 19px !important;
+    font-size: 24px !important;
 }
 .genre-wrapper > div{
     display: flex;
@@ -1087,8 +1087,6 @@ margin-bottom: 8px;
 .genre-wrapper .triple a {
     width: 33% !important;
 }
-
-
 .genres-first h3{
     font-size: 40px;
     font-style: normal;
