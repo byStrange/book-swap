@@ -2335,11 +2335,18 @@ li.nav-item {
     background: #f27d1d;
     border-color: transparent !important; 
 }
+.buttons a:hover::after{
+    opacity: 1;
+    top: calc(100%  + 50%);
+}
 .buttons a::after{
+    color: #fff !important;
     content: attr(popup);
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 40px;
+    top: calc(100% + 70%);
     left: 50%;
     background: rgba(130,130,130, .7);
+    padding: 5px 10px;
+    opacity: 0;
 }
