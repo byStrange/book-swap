@@ -1722,7 +1722,9 @@ font-style: 400px;
   padding-left: 0;
  
   }
-  
+  .dote-wr i {
+      font-size: 18px;
+  }
 
 .card-img-header img{
 width: 100%;
