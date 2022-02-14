@@ -2341,4 +2341,5 @@ li.nav-item {
     transform: translate(-50%, -50%);
     top: 40px;
     left: 50%;
+    background: rgba(130,130,130, .7);
 }
