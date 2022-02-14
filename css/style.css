@@ -2332,7 +2332,8 @@ li.nav-item {
     position: relative;
 }
 .buttons a:hover{
-    background: var(--c, #f27d1d);
+    background:  #f27d1d;
+    color: var(--c);
     border-color: transparent !important; 
 }
 .buttons a:hover::after{
