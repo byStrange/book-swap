@@ -1723,7 +1723,7 @@ font-style: 400px;
  
   }
   .dote-wr i {
-      font-size: 18px;
+      font-size: 18px !important;
   }
 
 .card-img-header img{
