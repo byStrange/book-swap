@@ -202,7 +202,6 @@ img{
 
 
 .card-wr:hover{
-    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
     transform: translateY(-12px);
 }
 .card-wr:hover .top-img-header{
@@ -355,15 +354,11 @@ padding-right: 2px !important;
     transition: all 0.5s;
 }
   .book-btn:hover{
-    /* box-shadow: rgb(219, 219, 219) 3px 13px 27px -15px, rgba(231, 231, 231, 0.719) 0px 8px 16px -8px; */
     margin-left: 15px !important;
 }
 .button-in-orange-color-centered a{
     transition: all 0.5s;
     
-}
-.button-in-orange-color-centered a:hover{
-    /* box-shadow: 5px 10px 20px rgba(170, 169, 169, 0.7); */
 }
 .advertisement-window{
     transition: all 0.5s;
@@ -374,16 +369,10 @@ padding-right: 2px !important;
 .card-center:hover{
 margin-left: 20px !important;
 }
-.advertisement-window:hover{
-    /* box-shadow: rgb(219, 219, 219) 3px 13px 27px -15px, rgba(231, 231, 231, 0.719) 0px 8px 16px -8px; */
-}
 .enter-web{
     transition: all 0.5s;
 }
 
-.enter-web:hover{
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
-}
 .photo-btn{
     transition: 0.5s;
 }
@@ -1131,7 +1120,6 @@ margin-bottom: 8px;
                 font-style: normal;
                 background-color: #F27D1D !important;
 }
-/* responsive folder */
 
 @media(max-width:1719px){
     .card-text-wr a{
@@ -1501,10 +1489,6 @@ height: 300px;
             color: #000000;
         
         }
-        /* .book-card p{
-            font-size: 18px !important;
-            max-width: 280px !important;
-        } */
         .photo-btn a{
          font-size: 15px;
         }
@@ -1619,9 +1603,6 @@ height: 300px;
     width:80% !important;
     margin: auto;
 }
-/* .login{
-    margin-top: 2px !important;
-} */
 .white-card{
     width: 75% !important;
 }
@@ -2046,7 +2027,6 @@ padding: 0px 10px;
 }
 .book-btn:hover{
     box-shadow: inset 0 0 10px #ececec;
-    /* box-shadow: 5px 5px 8px #888888; */
     margin-left:0px !important;
     
     
@@ -2143,11 +2123,6 @@ padding: 0px 10px;
 .enter .enter-with-login{
     font-size: 35px !important;
 }
-/* .advertisement-text-banner{
-    font-size: 20px !important;
-    margin-left: auto;
-    margin-right: auto;
-} */
 .seeall{
     float: right !important;
 }
@@ -2492,7 +2467,6 @@ padding: 0px 10px;
         left: 0;
         right: 0;
         opacity: 0;
-        /* transform: translate(-50%, -50%); */
     }
       .card-wr .heart div{
         font-size: 100px;
