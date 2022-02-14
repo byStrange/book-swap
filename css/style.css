@@ -2332,14 +2332,18 @@ li.nav-item {
     position: relative;
 }
 .buttons a:hover{
-    background: #f27d1d;
+    background: var(--c, #f27d1d);
     border-color: transparent !important; 
 }
 .buttons a:hover::after{
     opacity: 1;
     top: calc(100%  + 50%);
 }
+.buttons a[d]::after{
+    width: 231px;
+}
 .buttons a::after{
+    transition: 250ms;
     color: #fff !important;
     content: attr(popup);
     position: absolute;
@@ -2349,4 +2353,5 @@ li.nav-item {
     background: rgba(130,130,130, .7);
     padding: 5px 10px;
     opacity: 0;
+    border-radius: 8px;
 }
