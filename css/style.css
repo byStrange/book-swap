@@ -2326,3 +2326,10 @@ li.nav-item {
 .dote-wr i {
     font-size: 25px;
 }
+.buttons a{
+    background: transparent;
+    transition: 200ms;
+}
+.buttons a:hover{
+    background: #f27d1d;
+}
