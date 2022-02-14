@@ -2326,6 +2326,9 @@ li.nav-item {
 .dote-wr i {
     font-size: 25px;
 }
+.buttons span{
+    transition: 250ms;
+}
 .buttons a{
     background: transparent;
     transition: 200ms;
